@@ -1,12 +1,5 @@
 # EXP 1 - Implementation of Univariate Linear Regression
 
-```
-Program to implement univariate Linear Regression to
-fit a straight line using least squares.
-Developed by: Rajalakshmi R
-RegisterNumber: 212223110037
-```
-
 ## AIM:
 To implement univariate Linear Regression to fit a straight line using least squares.
 
@@ -16,6 +9,7 @@ To implement univariate Linear Regression to fit a straight line using least squ
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
+
 step 1 : Start
 
 
@@ -46,6 +40,13 @@ step 8 : Stop
 ## Program:
 
 ```
+/*
+Program to implement univariate Linear Regression to
+fit a straight line using least squares.
+Developed by: Rajalakshmi R
+RegisterNumber: 212223110037
+*/
+
 import numpy as np
 import matplotlib.pyplot as plt
 X =  np.array(eval(input()))
